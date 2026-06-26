@@ -1,10 +1,10 @@
 # AlgoritmosBioinspirados-Algoritmo_luciernagas_P3
 
-Este repositorio contiene la implementación y análisis comparativo del **Algoritmo de las Luciérnagas (Firefly Algorithm - FA)** aplicado a la resolución de problemas de optimización mono-objetivo. El trabajo forma parte de la asignatura de Algoritmos Bioinspirados y compara el desempeño del algoritmo propuesto frente a paradigmas evolutivos clásicos como el Algoritmo Genético (GA), Estrategias Evolutivas (ES) y Evolución Diferencial (DE).
+Este repositorio contiene la implementación y análisis comparativo del **Algoritmo de las Luciérnagas (Firefly Algorithm - FA)** aplicado a la resolución de problemas de optimización mono-objetivo. El trabajo forma parte de la asignatura de Algoritmos Bioinspirados y compara el desempeño del algoritmo propuesto frente a paradigmas evolutivos clásicos como el Algoritmo Genético (GA), Estrategias Evolutivas (EE) y Evolución Diferencial (ED).
 
 ## Información Institucional
 
-* **Institución:** Instituto Politécnico Nacional (IPN)
+* **Institución:** Instituto Politécnico Nacional (IPN) - Escuela Superior de Cómputo (ESCOM)
 * **Docente:** Dra. Miriam Pescador Rojas
 * **Integrantes:**
   * Arcia Portillo Héctor
@@ -13,12 +13,12 @@ Este repositorio contiene la implementación y análisis comparativo del **Algor
 
 ---
 
-## Estructura de los Cuadernos
+## Estructura de los cuadernos
 
 El proyecto está dividido en cuadernos secuenciales que documentan la evolución del algoritmo y las pruebas estadísticas:
 
 1. **`1_Luciérnagas_AP_CL_CR.ipynb`**
-   * Contiene la implementación base de los algoritmos evolutivos clásicos (GA, EE y DE) utilizando el framework `pymoo` para resolver las funciones de benchmark: Ackley, Griewank, Rastrigin y Rosenbrock.
+   * Contiene la implementación base de los algoritmos evolutivos clásicos (GA, EE y DE) utilizando el framework `pymoo` para resolver las funciones de benchmark: Ackley, Griewank, Rastrigin y Rosenbrock. Así como el primer algoritmo clásico de luciérnagas adaptado a los parámetros de la práctica 3.
 
 2. **`2_Comparación_de_funciones_con_FA.ipynb`**
    * Realiza la comparación estadística mediante la prueba de rangos con signo de Wilcoxon entre las soluciones obtenidas por el Algoritmo de las Luciérnagas estándar y los mejores resultados previos de la Práctica 3.
